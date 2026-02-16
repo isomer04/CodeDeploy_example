@@ -1,0 +1,11 @@
+#--------------------------------------------------------------
+# Simple AWS CodeDeploy Config File
+#
+# Copyleft (c) by Isomer
+#--------------------------------------------------------------
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html
+    overwrite: true
